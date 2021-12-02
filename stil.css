@@ -1,0 +1,503 @@
+* {
+    box-sizing: border-box;
+}
+.nav {
+    height:100px;
+    background-color:white;
+}
+.nav img {
+    height: 105px;
+    padding: 10px 0px 0px 30px;
+}
+.nav ul {
+    margin-left:150px;
+    vertical-align: 200%;
+}
+.meniu {
+    display:inline-block;
+}
+.meniu li {
+    display:inline-block;
+}
+.buton {
+    background-color:white;
+    padding: 10px 25px;
+}
+.buton a {
+    text-decoration:none;
+    color:#00334d;
+    font-family:Gontserrat;
+}
+a:hover {
+    color:orange;
+    font-weight:bold;
+}
+.link {
+    text-decoration:none;
+    color:#00334d;
+    font-family:Gontserrat;
+    font-weight: bold;
+}
+.header_landing_page {
+    background-image: url(imagini/wowburgeri.jpg);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -33.5px;
+}
+.header_galerie {
+    background-image: url(imagini/galerie.jpg);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -33.5px;
+}
+.header_meniu {
+    background-image: url(imagini/restaurant1.jpg);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -33.5px;
+}
+.header_contact {
+    background-image: url(imagini/iphone.jpg);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -33.5px;
+}
+h1 {
+    margin-bottom: 1px;
+    color:white;
+    text-align:center;
+    font-family:Gontserrat;
+    padding: 370px;
+    font-size:70px
+}
+.h2 {
+    margin-bottom: 1px;
+    color:white;
+    text-align:left;
+    font-family:Gontserrat;
+    font-size:50px
+}
+.meniu_titlu {
+    font-family:Gontserrat;
+    color:#00334d;
+    text-align:center;
+    font-size:30px;
+    padding-top:20px;
+}
+h4 {
+    font-family:Gontserrat;
+    color:#00334d;
+    text-align:center;
+}
+body{
+    margin: 0px;
+    background-color:white;
+}
+.culoare{
+    color:orange;
+}
+.imagini{
+    padding-bottom:20px;
+}
+#rcorners1 {
+    border-radius: 40px;
+}
+.icon{
+    width:120%;
+    padding-left:200px;
+    padding-right:200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pe-sfert{
+    float:left;
+    width:50%;
+}
+.pe-lung{
+    float:left;
+    width:100%;
+}
+.sectiune {
+    background-color: FloralWhite;
+    padding-left:10px;
+    border: 5px solid white;
+    text-align:center;
+    font-family:Gontserrat;
+    color:#00334d;
+}
+.paragraf{
+    text-align:justify;
+    font-family:Gontserrat;
+    font-size:18px;
+    padding-left:65px;
+    padding-right:65px;
+    margin-bottom:20px;
+}
+.sectiune1{
+    background-color:#262626;
+    text-align:center;
+    padding-right:10px;
+    border-top:5px solid white;
+    border-bottom: 5px solid white;
+    font-family:Gontserrat;
+    font-size: 25px;
+    display: inline;
+    color:white
+}
+.paragraf1{
+    font-size:18px;
+    text-align:justify;
+    margin-right:70px;
+}
+.sectiune2{
+    background-color:FloralWhite;
+    border-top:2px solid white;
+    text-align:center;
+    border-bottom:5px solid white;
+    font-family:Gontserrat;
+    display: inline;
+    font-size:25px;
+    color:#00334d;
+    
+}
+.comanda_acum{
+    margin-bottom:0px;
+}
+.buton_spre_meniu{
+    background-color:orange;
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom:15px;
+    padding-top:15px;
+    text-decoration:none;
+    color:#00334d;
+    font-family:Gontserrat;
+    font-size:23px;
+    font-weight:bold;
+    margin-right:7px;
+}
+.sectiune3 {
+    background-color:white;
+    font-family:Gontserrat;
+    font-size:32px;
+    color:#00334d;
+    text-align:center;
+}
+div.gallery {
+    padding:5px;
+}
+div.gallery:hover {
+    opacity:0.7;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family:Gontserrat;
+    font-size:15px;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    .testimonial {
+    border: 2px solid rgb(255, 242, 215);
+    background-color: FloralWhite;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 10px;
+    margin-bottom:50px;
+  }
+  
+  .testimonial::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .testimonial img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .testimonial span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .testimonial {
+        text-align: center;
+    }
+    .testimonial img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+
+
+/* Începutul fragmentului de CSS pentru pagina de meniu a site-ului */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+  }
+  
+.row {margin: 0 -5px;}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+.card {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .sectiune4 {
+    background-color:white;
+    font-family:Gontserrat;
+}
+/* Sfârșitul fragmentului de CSS pentru pagina de meniu a site-ului */
+
+/*Începutul fragmentului de CSS pentru pagina de contact a site-ului */
+
+#fcf-form {
+    display:block;
+}
+
+.fcf-body {
+    margin: 0;
+    font-family:Gontserrat;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #00334d;
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    padding-bottom: 4px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    max-width: 70%;
+    margin:30px;
+    margin-left:200px;
+}
+
+.fcf-form-group {
+    margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.fcf-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fcf-form-control:focus {
+    border: 1px solid #313131;
+}
+
+select.fcf-form-control[size], select.fcf-form-control[multiple] {
+    height: auto;
+}
+
+textarea.fcf-form-control {
+    font-family: Gontserrat;
+    height: auto;
+}
+
+label.fcf-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.fcf-credit {
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #545b62;
+}
+
+.fcf-credit a {
+    color: #545b62;
+    text-decoration: underline;
+}
+
+.fcf-credit a:hover {
+    color: rgb(189, 123, 0);
+    text-decoration: underline;
+}
+
+.fcf-btn {
+    display: inline-block;
+    font-weight: 400;
+    font-family:Gontserrat;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fcf-btn {
+        transition: none;
+    }
+}
+
+.fcf-btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.fcf-btn:focus, .fcf-btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+}
+
+.fcf-btn-primary:hover {
+    color: #fff;
+    background-color: rgb(255, 200, 98);
+    border-color: rgb(255, 200, 98);
+}
+
+.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+    color: #fff;
+    background-color: rgb(189, 123, 0);
+    border-color: rgb(189, 123, 0);
+    box-shadow: 0 0 0 0.2rem rgba(167, 47, 0, 0.5);
+}
+
+.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.fcf-btn-block {
+    display: block;
+    width: 100%;
+}
+
+.fcf-btn-block+.fcf-btn-block {
+    margin-top: 0.5rem;
+}
+
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+    width: 100%;
+}
+.map{
+    margin:150px;
+    padding-bottom:4px;
+}
+/*Sfârșitul fragmentului de CSS pentru pagina de contact a site-ului */
+
+footer {
+    background-color:#262626;
+    color:white;
+    font-family:Gontserrat;
+    text-align:center;
+    font-size:15px;
+}
+.logojos{
+    padding-left:50px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.footertext{
+    padding-right:0px;
+}
+.copyright{
+    padding-bottom:10px;
+    margin-bottom:0px;
+}
